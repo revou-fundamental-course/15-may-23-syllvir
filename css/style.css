@@ -1,0 +1,98 @@
+body{
+    background: #d3d3d326;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header{
+    background: #91a5fa;
+    text-align: center;
+    padding: 20px 20px;
+}
+input{
+    width: 100%;
+    height: 25px;
+}
+input:focus{ /*saat input di klik, akan menghasilkan border*/
+    border: 1px solid black;
+}
+button{
+    font-weight: bold;
+}
+button:hover{ /*saat mouse digeser ke button, akan muncul efek border*/
+    border: 5px dotted rgb(2, 2, 111);
+}
+
+.card {  /*untuk memberikan style yang berbeda dengan <body>*/
+    padding: 20px;
+    background-color: white;
+    margin: 20px 5px;
+}
+.example-square { /*Contoh Persegi dengan bantuan border*/
+    border: 5px solid red;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.title{ /*untuk nama merk*/
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+}
+.sub-title{ /*untuk jenis aplikasi*/
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+.intro{
+    text-align: center;
+}
+#welcome{
+    font-weight: bold;
+}
+.show-btn{
+    font-weight: bold;
+    background-color: aquamarine;
+    border: none;
+}
+#Judul{
+    background-color: #91a5fa;
+    line-height: 50px;
+    height: 50px;
+    width: 100%;
+    color:white;
+    font-weight: bolder;
+}
+#Luas{
+    display: none;
+    border: 2px solid blue;
+}
+#Keliling{
+    display: none;
+    border: 2px solid blue;
+}
+.hitung-btn{
+    text-align: center;
+    margin: 5px;
+}
+.button {
+    min-width: 15%;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+.reset-btn {
+    text-align: right;
+    margin: 5px;
+}
+.reset {
+    min-width: 15%;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+#output_luas {
+    visibility: hidden;
+}
+#output_keliling {
+    visibility: hidden;
+}
